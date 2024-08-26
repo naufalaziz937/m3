@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maldives</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="wrapper">
+        <nav class="navbar bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="https://i.pinimg.com/564x/b6/bd/11/b6bd113541b45cc79819077012361249.jpg" alt="Maldives"
+                        width="60" height="40">
+                    <a class="navbar-brand" href="#"> </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">The Paradise.</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#about">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="galer.html">Activities</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="jawa.html">Gallery</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="us.html" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        More
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="boot2.html">Booking</a></li>
+                                        <li><a class="dropdown-item" href="kontok.html">Contact</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">About Us</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <form class="d-flex mt-3" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+            </div>
+        </nav>
+        
+        <div class="container my-5">
+            <h2 class="text-center mb-4" style="color: black; margin-top: 100px;">What are the things in the <span
+                    class="badge bg-success">Maldives?</span></h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+
+                    <div class="card">
+                        <img src="https://i.pinimg.com/564x/fc/da/d4/fcdad4a6d6c4bd46ae3a9b11c3db9a75.jpg"
+                            class="card-img-top" alt="Pantai">
+                        <div class="card-body">
+                            <h5 class="card-title">Beautiful beaches</h5>
+                            <p class="card-text">The beauty of the beach is breathtaking.</p>
+                            <!-- Button trigger modal -->
+                            <a href="#pantai" class="btn btn-success" data-bs-toggle="modal"
+                                data-bs-target="#pantai">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/564x/48/6e/ee/486eee31eb22b6ff2d4eeb6d0498671d.jpg" 
+                        class="card-img-top" alt="inapModal">
+                        <div class="card-body">
+                            <h5 class="card-title">Comfortable lodging</h5>
+                            <p class="card-text">An inn that will keep you from going home.</p>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#inapModal">
+                                Lihat Detail
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/736x/e7/ec/82/e7ec82953cbfcc68c2027772a59d8953.jpg"
+                            class="card-img-top" alt="Trekking">
+                        <div class="card-body">
+                            <h5 class="card-title">Charming scenery</h5>
+                            <p class="card-text">Enjoy unbeatable views.</p>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#pandangModal">
+                                Lihat Detail
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="pantai" tabindex="-1" aria-labelledby="pantai" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="pantai" style="color: black;">Beautiful beaches</h1>
+                    </div>
+                    <div class="modal-body">
+                        <div id="carouselExample" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="https://i.pinimg.com/564x/fc/da/d4/fcdad4a6d6c4bd46ae3a9b11c3db9a75.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://i.pinimg.com/564x/6d/07/3f/6d073fe8e5fe02197c9978689b9f368c.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://i.pinimg.com/564x/d9/4f/db/d94fdbe9155f419414fee08860fabbb1.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- modal 2 -->
+        <div class="modal fade" id="inapModal" tabindex="-1" aria-labelledby="inapModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="inapModalLabel" style="color: black;">Comfortable lodging</h5>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Carousel -->
+                        <div id="carouselCamping" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="https://i.pinimg.com/564x/8b/07/ee/8b07ee3caeab65a7075bbf1b840c1e87.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://i.pinimg.com/736x/75/1a/1f/751a1feca5bd352f65b71bc5ee211b0d.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://i.pinimg.com/564x/e1/85/30/e18530fbe4d0d91c8173a9c299d98273.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselCamping" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselCamping" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <!-- End Carousel -->
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- modal 3 -->
+        <div class="modal fade" id="pandangModal" tabindex="-1" aria-labelledby="pandangModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="pandangModalLabel" style="color: black;">Charming scenery</h5>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Carousel -->
+                        <div id="carouselTrekking" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="https://i.pinimg.com/564x/80/14/65/80146569b75861cbc967cceced6bded6.jpg" class="d-block w-100" alt="Trekking 1">
+                                    <div class="carousel-caption d-none d-md-block">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://i.pinimg.com/564x/fc/da/d4/fcdad4a6d6c4bd46ae3a9b11c3db9a75.jpg" class="d-block w-100" alt="Trekking 2">
+                                    <div class="carousel-caption d-none d-md-block">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://i.pinimg.com/564x/b3/42/ab/b342ab31f21aaa7272e1cc1297be8f12.jpg" class="d-block w-100" alt="Trekking 3">
+                                    <div class="carousel-caption d-none d-md-block">
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselTrekking" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselTrekking" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <!-- End Carousel -->
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <!-- footer -->
+        <footer class="footer2" id="footer">
+            <div class="container2">
+                <div class="row2">
+                    <div class="footer-col2">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#aboutme">About</a></li>
+                            <li><a href="boot2.html" target="_blank">Booking</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col2">
+                        <h4>Contact</h4>
+                        <div class="sosial-links">
+
+                            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="#"><i class="fa-regular fa-envelope"></i></a>
+                            <a href="#"><i class="fa-solid fa-phone"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-col2">
+                        <h4>Lokasi</h4>
+                        <p class="teks">The Maldives is located in the Indian Ocean, about 700 kilometers southwest of
+                            Sri Lanka.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="wrapper">
+                    &copy; 2024. <b>NazwanNaufalAziz.</b> All Right Reversed.
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</html>
